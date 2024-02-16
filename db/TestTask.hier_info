@@ -1,0 +1,36 @@
+|TestTask
+clk => state[0].CLK
+clk => state[1].CLK
+clk => state[2].CLK
+clk => state[3].CLK
+clk => state[4].CLK
+clk => state[5].CLK
+clk => state[6].CLK
+clk => state[7].CLK
+clk => state[8].CLK
+clk => state[9].CLK
+clk => state[10].CLK
+clk => state[11].CLK
+clk => state[12].CLK
+clk => state[13].CLK
+clk => state[14].CLK
+clk => state[15].CLK
+rst => state[0].PRESET
+rst => state[1].ACLR
+rst => state[2].ACLR
+rst => state[3].ACLR
+rst => state[4].ACLR
+rst => state[5].ACLR
+rst => state[6].ACLR
+rst => state[7].ACLR
+rst => state[8].ACLR
+rst => state[9].ACLR
+rst => state[10].ACLR
+rst => state[11].ACLR
+rst => state[12].ACLR
+rst => state[13].ACLR
+rst => state[14].ACLR
+rst => state[15].ACLR
+reg_out <= state[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

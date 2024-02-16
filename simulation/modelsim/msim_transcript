@@ -1,0 +1,243 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do TestTask_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+C:/altera/13.0sp1/TestTask {C:/altera/13.0sp1/TestTask/TestTask.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module TestTask
+# 
+# Top level modules:
+# 	TestTask
+# 
+vlog -sv -work work +incdir+C:/altera/13.0sp1/TestTask -O0 C:/altera/13.0sp1/TestTask/TestTask.sv
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module TestTask
+# 
+# Top level modules:
+# 	TestTask
+vsim -voptargs=+acc work.TestTask
+# vsim -voptargs=+acc work.TestTask 
+# Loading sv_std.std
+# Loading work.TestTask
+add wave -position end  sim:/TestTask/state
+add wave -position end  sim:/TestTask/rst
+add wave -position end  sim:/TestTask/reg_out
+add wave -position end  sim:/TestTask/clk
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vlog -reportprogress 300 -work work C:/altera/13.0sp1/TestTask/Test.sv
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_LFSR
+# 
+# Top level modules:
+# 	tb_LFSR
+vsim -voptargs=+acc work.tb_LFSR
+# vsim -voptargs=+acc work.tb_LFSR 
+# Loading sv_std.std
+# Loading work.tb_LFSR
+# Loading work.TestTask
+vlog -work work -O0 C:/altera/13.0sp1/TestTask/Test.sv
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_LFSR
+# 
+# Top level modules:
+# 	tb_LFSR
+vsim -voptargs=+acc work.tb_LFSR
+# vsim -voptargs=+acc work.tb_LFSR 
+# Loading sv_std.std
+# Loading work.tb_LFSR
+# Loading work.TestTask
+add wave -position end  sim:/tb_LFSR/rst
+add wave -position end  sim:/tb_LFSR/reg_out
+add wave -position end  sim:/tb_LFSR/clk
+run
+# Time=0, reg_out=1
+# ** Note: $finish    : C:/altera/13.0sp1/TestTask/Test.sv(22)
+#    Time: 100 ps  Iteration: 0  Instance: /tb_LFSR
+# 1
+# Break in Module tb_LFSR at C:/altera/13.0sp1/TestTask/Test.sv line 22
+vsim -voptargs=+acc work.tb_LFSR
+# vsim -voptargs=+acc work.tb_LFSR 
+# Loading sv_std.std
+# Loading work.tb_LFSR
+# Loading work.TestTask
+vlog -work work -O0 C:/altera/13.0sp1/TestTask/Test.sv
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_LFSR
+# 
+# Top level modules:
+# 	tb_LFSR
+vlog -work work -O0 C:/altera/13.0sp1/TestTask/Test.sv
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_LFSR
+# 
+# Top level modules:
+# 	tb_LFSR
+vsim -voptargs=+acc work.tb_LFSR
+# vsim -voptargs=+acc work.tb_LFSR 
+# Loading sv_std.std
+# Loading work.tb_LFSR
+# Loading work.TestTask
+add wave -position end  sim:/tb_LFSR/rst
+add wave -position end  sim:/tb_LFSR/reg_out
+add wave -position end  sim:/tb_LFSR/clk
+run
+# Time=0, reg_out=1
+# ** Note: $finish    : C:/altera/13.0sp1/TestTask/Test.sv(22)
+#    Time: 100 ps  Iteration: 0  Instance: /tb_LFSR
+# 1
+# Break in Module tb_LFSR at C:/altera/13.0sp1/TestTask/Test.sv line 22
+vlog -work work -O0 C:/altera/13.0sp1/TestTask/Test.sv
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_LFSR
+# 
+# Top level modules:
+# 	tb_LFSR
+restart
+# Loading sv_std.std
+# Loading work.tb_LFSR
+# Loading work.TestTask
+run
+# Time=0, reg_out=1
+run
+# Time=155, reg_out=0
+# Time=165, reg_out=1
+# Time=175, reg_out=0
+# Time=185, reg_out=1
+# Time=195, reg_out=0
+run
+# Time=205, reg_out=1
+# Time=215, reg_out=0
+# Time=225, reg_out=1
+# Time=235, reg_out=0
+# Time=245, reg_out=1
+# Time=255, reg_out=0
+# Time=265, reg_out=1
+# Time=275, reg_out=0
+# Time=285, reg_out=1
+# Time=295, reg_out=0
+run
+# Time=315, reg_out=1
+# Time=335, reg_out=0
+# Time=355, reg_out=1
+# Time=375, reg_out=0
+# Time=395, reg_out=1
+run
+# Time=415, reg_out=0
+# Time=435, reg_out=1
+# Time=465, reg_out=0
+# Time=475, reg_out=1
+run
+# Time=505, reg_out=0
+# Time=515, reg_out=1
+# Time=545, reg_out=0
+# Time=555, reg_out=1
+# Time=585, reg_out=0
+# Time=595, reg_out=1
+run
+# Time=605, reg_out=0
+# Time=625, reg_out=1
+# Time=635, reg_out=0
+# Time=645, reg_out=1
+# Time=665, reg_out=0
+# Time=675, reg_out=1
+# Time=685, reg_out=0
+run
+# Time=705, reg_out=1
+# Time=715, reg_out=0
+# Time=725, reg_out=1
+# Time=745, reg_out=0
+# Time=775, reg_out=1
+# Time=795, reg_out=0
+run
+# Time=805, reg_out=1
+# Time=825, reg_out=0
+# Time=855, reg_out=1
+# Time=875, reg_out=0
+# Time=885, reg_out=1
+run
+# Time=925, reg_out=0
+# Time=935, reg_out=1
+# Time=955, reg_out=0
+# Time=965, reg_out=1

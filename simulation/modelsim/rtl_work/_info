@@ -1,0 +1,52 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\TestTask\simulation\modelsim
+vtb_LFSR
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 1
+!s100 4e=VQg_RIDA5JS9o60ezl1
+IJPN]=kH<U2NS8R9bQK74m1
+VXWlVG1RSeD>kX;R?F[:NV0
+!s105 Test_sv_unit
+S1
+Z2 dC:\altera\13.0sp1\TestTask\simulation\modelsim
+w1708033157
+8C:/altera/13.0sp1/TestTask/Test.sv
+FC:/altera/13.0sp1/TestTask/Test.sv
+L0 1
+Z3 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1708033163.220000
+!s107 C:/altera/13.0sp1/TestTask/Test.sv|
+!s90 -reportprogress|300|-work|work|-O0|C:/altera/13.0sp1/TestTask/Test.sv|
+!s101 -O0
+o-work work -O0
+ntb_@l@f@s@r
+vTestTask
+R1
+ImfL:WLS<Lg]1[=MXJjgnD2
+VegJPfE5`c<^aSok6JX4zV0
+S1
+R2
+w1708032721
+8C:/altera/13.0sp1/TestTask/TestTask.sv
+FC:/altera/13.0sp1/TestTask/TestTask.sv
+L0 1
+R3
+r1
+31
+o-sv -work work -O0
+n@test@task
+!i10b 1
+!s100 5DO>6>Za?hl2DWZX>`Bhd3
+!s105 TestTask_sv_unit
+!s85 0
+!s108 1708032822.060000
+!s107 C:/altera/13.0sp1/TestTask/TestTask.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/13.0sp1/TestTask|-O0|C:/altera/13.0sp1/TestTask/TestTask.sv|
+!s101 -O0
+!s92 -sv -work work +incdir+C:/altera/13.0sp1/TestTask -O0

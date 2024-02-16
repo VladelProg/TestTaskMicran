@@ -1,0 +1,21 @@
+module LFSR(
+  input wire clk,
+  input wire rst,
+  output wire reg_out
+);
+
+  reg [15:0] shift_register;
+  reg feedback;
+
+  always @(posedge clk or posedge rst) begin
+    if (rst)
+      shift_register <= 16'b0;
+    else begin
+      feedback = shift_register[0] ^ shift_register[14] ^ shift_register[15];
+      shift_register <= {feedback, shift_register[0:14]};
+    end
+  end
+
+  assign reg_out = shift_register[0];
+
+endmodule
